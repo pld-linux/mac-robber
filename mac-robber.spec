@@ -3,7 +3,7 @@
 # noarch or optflags missing?
 #
 Summary:	mac-robber - digital investigation tool collecting data from a mounted file system
-Summary(pl):	mac-robber - narzêdzie zbieraj±ce dane z zamontowanego systemu plików
+Summary(pl.UTF-8):   mac-robber - narzÄ™dzie zbierajÄ…ce dane z zamontowanego systemu plikÃ³w
 Name:		mac-robber
 Version:	1.00
 Release:	0.1
@@ -30,22 +30,22 @@ must be used.
 mac-robber is useful when dealing with a file system that is not 
 supported by The Sleuth Kit or other file system analysis tools.
 
-%description -l pl
-mac-robber to narzêdzie do analizy i reagowania na zdarzenia s³u¿±ce
-do zbierania czasów modyfikacji, dostêpu i zmiany (MAC - Modified,
-Access, Change) z przydzielonych plików. Rekurencyjnie odczytuje czasy
-MAC z plików oraz katalogów i wypisuje je na standardowe wyj¶cie w
+%description -l pl.UTF-8
+mac-robber to narzÄ™dzie do analizy i reagowania na zdarzenia sÅ‚uÅ¼Ä…ce
+do zbierania czasÃ³w modyfikacji, dostÄ™pu i zmiany (MAC - Modified,
+Access, Change) z przydzielonych plikÃ³w. Rekurencyjnie odczytuje czasy
+MAC z plikÃ³w oraz katalogÃ³w i wypisuje je na standardowe wyjÅ›cie w
 formacie czytelnym dla maszyny. Format ten jest taki sam, jak
-narzêdzia mactool z pakietu The Sleuth Kit.
+narzÄ™dzia mactool z pakietu The Sleuth Kit.
 
-Nale¿y zauwa¿yæ, ¿e to narzêdzie nie poka¿e plików usuniêtych,
-nieprzydzielonych czy ukrytych przez rootkity. Aby uzyskaæ informacje
-o tych rodzajach plików, nale¿y u¿yæ specjalizowanych narzêdzi z
+NaleÅ¼y zauwaÅ¼yÄ‡, Å¼e to narzÄ™dzie nie pokaÅ¼e plikÃ³w usuniÄ™tych,
+nieprzydzielonych czy ukrytych przez rootkity. Aby uzyskaÄ‡ informacje
+o tych rodzajach plikÃ³w, naleÅ¼y uÅ¼yÄ‡ specjalizowanych narzÄ™dzi z
 pakietu The Sleuth Kit.
 
-mac-robber jest przydatny w przypadku systemów plików nie
-obs³ugiwanych przez The Sleuth Kit czy inne narzêdzia do analizy
-systemów plików.
+mac-robber jest przydatny w przypadku systemÃ³w plikÃ³w nie
+obsÅ‚ugiwanych przez The Sleuth Kit czy inne narzÄ™dzia do analizy
+systemÃ³w plikÃ³w.
 
 %prep
 %setup -q
