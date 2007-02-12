@@ -3,7 +3,7 @@
 # noarch or optflags missing?
 #
 Summary:	mac-robber - digital investigation tool collecting data from a mounted file system
-Summary(pl.UTF-8):   mac-robber - narzędzie zbierające dane z zamontowanego systemu plików
+Summary(pl.UTF-8):	mac-robber - narzędzie zbierające dane z zamontowanego systemu plików
 Name:		mac-robber
 Version:	1.00
 Release:	0.1
