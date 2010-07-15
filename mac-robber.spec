@@ -1,16 +1,13 @@
 #
-# TODO	- make not simple
-# noarch or optflags missing?
-#
 Summary:	mac-robber - digital investigation tool collecting data from a mounted file system
 Summary(pl.UTF-8):	mac-robber - narzędzie zbierające dane z zamontowanego systemu plików
 Name:		mac-robber
-Version:	1.00
-Release:	0.1
-License:	GPL
+Version:	1.02
+Release:	1
+License:	GPL v2
 Group:		Applications
 Source0:	http://dl.sourceforge.net/mac-robber/%{name}-%{version}.tar.gz
-# Source0-md5:	902afd8e6121e153bbc8cb93013667fd
+# Source0-md5:	6d6d99aa882a46b2bc5231d195fdb595
 URL:		http://www.sleuthkit.org/mac-robber/
 Requires:	sleuthkit
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -51,7 +48,7 @@ systemów plików.
 %setup -q
 
 %build
-%{__make} simple
+%{__make} linux
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -64,5 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc README CHANGES COPYING
 %attr(755,root,root) %{_bindir}/*
